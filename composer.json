@@ -1,0 +1,30 @@
+{
+    "name": "dalencar/yii2-webfontkit",
+    "description": "Set of icon frameworks for use in Yii Framework 2.0",
+    "keywords": ["yii", "yii2", "extension", "font-face", "font", "webfont"],
+    "homepage": "https://github.com/dalencar/yii2-webfontkit",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "support": {
+        "issues": "https://github.com/dalencar/yii2-webfontkit/issues",
+        "wiki": "https://github.com/dalencar/yii2-webfontkit",
+        "source": "https://github.com/dalencar/yii2-webfontkit"
+    },
+    "authors": [
+        {
+            "name": "Davidson Alencar",
+            "email": "davidson.t.i@gmail.com",
+            "homepage": "http://dalencar.com/"
+        }
+    ],    
+    "minimum-stability": "dev",
+    "require": {
+        "webfontkit/open-sans": "*",
+        "webfontkit/roboto": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dalencar\\webfontkit\\": ""
+        }
+    }
+}
